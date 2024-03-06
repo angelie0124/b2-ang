@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.head1 {
+  background-color: rgb(250, 178, 43);
+}
+
+.head2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+}
+
+.nav {
+  background-color: pink;
+}
+
+.b-content {
+  display: grid;
+  grid-template-columns: 79% 20.5%;
+  height: 705px;
+  column-gap: 10px;
+}
+
+.post1 {
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+
+/* ===POST META / MAIN CONTENT=== */
+.post2 {
+  display: grid;
+  grid-template-columns: 20% auto;
+  column-gap: 10px;
+}
+
+.post2 .p2-ca {
+  background-color: lightgreen;
+  height: 590px;
+}
+
+.post2 .p2-cb {
+  display: grid;
+  row-gap: 10px;
+}
+
+.post2 .p2-cb .p2-cbc:first-child {
+  background-color: lightgray;
+}
+.post2 .p2-cb .p2-cbc:last-child {
+  background-color: yellow;
+}
+
+/* ====side content==== */
+.sidebar {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  row-gap: 10px;
+}
+
+.side {
+  height: 224px;
+}
+
+.side:first-child {
+  background-color: orange;
+}
+
+.side:nth-child(2) {
+  background-color: green;
+}
+
+.side:last-child {
+  background-color: rgb(195, 34, 195);
+}
+
+/* ====Footer==== */
+.footer {
+  background-color: rgb(111, 60, 60);
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+}
